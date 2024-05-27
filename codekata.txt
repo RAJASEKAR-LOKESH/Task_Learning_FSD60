@@ -1,0 +1,80 @@
+https://docs.github.com/en/get-started/start-your-journey
+
+
+let a=[];
+for(let i=1;i<4;i++)
+{
+    a.push(userInput[0]*i);
+}
+console.log(a.join(" "));
+
+
+if(userInput[0]<0)
+console.log("Error");
+let res=[];
+for(let ind=1;ind<=userInput[0];ind++)
+res.push(ind*ind);
+console.log(res[userInput[0]-1]);
+
+(or)
+
+if(userInput[0]<0)
+console.log("Error");
+else
+{
+let res=0;
+for(let ind=1;ind<=userInput[0];ind++)
+res=ind*ind;
+console.log(res);
+}if(userInput[0]<0)
+console.log("Error");
+else
+{
+let res=0;
+for(let ind=1;ind<=userInput[0];ind++)
+res=ind*ind;
+console.log(res);
+}
+
+  if(userInput[0]==0) console,log("NULL");
+  else
+  {
+      let a=[];
+      for(let ind=1;ind<=userInput[0];ind++)
+      {
+          a.push(9*ind);
+      }
+      console.log(a.join(" "));
+  }
+
+   let a= userInput[0].split(" ");
+   let b=a.join("");
+   console.log(b.length);
+
+https://qtext.io/bufe
+
+  let sum=0;
+  for(let ind=1;ind<=userInput[0];ind++)
+  {
+      sum+=ind;
+  }
+  console.log(sum);
+
+  let num = userInput[0].split(" ");
+  let num1=num[0],num2=num[1];
+  while(num1!=num2)
+  {
+      if(num1>num2) num1=num1-num2;
+      else
+      num2=num2-num1;
+  }
+  console.log(num1);
+
+  let num = userInput[0].split(" ");
+  let max=1;
+  let min=num[0]<num[1]?num[0]:num[1];
+  for(let ind=1;ind<=min;ind++)
+  {
+      if(num[0]%ind==0 && num[1]%ind==0) max=ind;
+  }
+  console.log(max);
